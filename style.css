@@ -702,9 +702,6 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(-5px);
 }
 
-#navbar{
-    background-color: var(--color-black);
-}
 /* 5. SECTION TITLE STYLING
 -------------------------------------------------- */
 .section-title-container {
