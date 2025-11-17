@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full Gallery | Tam Photography KE</title>
+    <meta name="description" content="The full photography gallery of Tam Photography KE, showcasing portraits, weddings, real estate, and more." />
+
+    <!-- Google Fonts: Playfair Display & Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body class="bg-white text-gray-800 font-montserrat">
+    <!-- RESPONSIVE NAVIGATION BAR -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <a href="index.html" class="navbar-logo">Tam Photography KE</a>
+        <button class="navbar-toggle" id="navbar-toggle" aria-label="Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="navbar-menu" id="navbar-menu">
+          <li class="navbar-item"><a href="index.html" class="navbar-link">Home</a></li>
+          <li class="navbar-item"><a href="index.html#about" class="navbar-link">About Us</a></li>
+          <li class="navbar-item"><a href="index.html#gallery" class="navbar-link">Our Work</a></li>
+          <li class="navbar-item"><a href="index.html#services" class="navbar-link">Services</a></li>
+          <li class="navbar-item"><a href="index.html#testimonials" class="navbar-link">Clients</a></li>
+          <li class="navbar-item"><a href="contact-us.html" class="navbar-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <!-- FULL GALLERY SECTION -->
+      <section id="full-gallery" class="py-20 lg:py-32" style="padding-top: 120px;">
+        <div class="container">
+          <div class="section-title-container">
+            <h2 class="section-title-background">GALLERY</h2>
+            <h3 class="section-title-foreground">Full Gallery</h3>
+          </div>
+          <p class="section-subtitle">A complete collection of our favorite captured moments. Explore the stories we've told through our lens.</p>
+          
+          <!-- Gallery Filter Buttons -->
+          <div class="gallery-filter" id="gallery-filter-btns">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="wedding">Weddings</button>
+            <button class="filter-btn" data-filter="portrait">Portraits</button>
+            <button class="filter-btn" data-filter="real-estate">Real Estate</button>
+            <button class="filter-btn" data-filter="landscape">Landscape</button>
+            <button class="filter-btn" data-filter="graduation">Graduation</button>
+            <button class="filter-btn" data-filter="baby-bump">Baby Bump</button>
+          </div>
+
+          <div class="gallery-grid" id="gallery-grid">
+            <div class="gallery-item" data-category="wedding"><img src="https://images.unsplash.com/photo-1529634806973-e363a5d37e8b?q=80&w=2574" alt="Wedding Portrait"></div>
+            <div class="gallery-item" data-category="portrait"><img src="https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?q=80&w=2574" alt="Soul Imagery"></div>
+            <div class="gallery-item" data-category="landscape"><img src="https://images.unsplash.com/photo-1507525428034-b723a996f3ea?q=80&w=2670" alt="Picturesque Imagery"></div>
+            <div class="gallery-item" data-category="portrait"><img src="https://images.unsplash.com/photo-1529232577993-8a31c2d01506?q=80&w=2574" alt="Couples"></div>
+            <div class="gallery-item" data-category="real-estate"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2670" alt="Real Estate"></div>
+            <div class="gallery-item" data-category="landscape"><img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2670" alt="Authentic Imagery"></div>
+            <div class="gallery-item" data-category="portrait"><img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=2572" alt="Self Portrait"></div>
+            <div class="gallery-item" data-category="portrait"><img src="https://images.unsplash.com/photo-1532712938310-34cb39825785?q=80&w=2670" alt="Maternity Imagery"></div>
+            <div class="gallery-item" data-category="portrait"><img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=2574" alt="Baby Bump"></div>
+            <div class="gallery-item" data-category="portrait"><img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=2670" alt="Graduation Photography"></div>
+            <div class="gallery-item" data-category="wedding"><img src="https://images.unsplash.com/photo-1519741497674-6114d186b2b8?q=80&w=2670" alt="Wedding Details"></div>
+            <div class="gallery-item" data-category="wedding"><img src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?q=80&w=2670" alt="Wedding Ceremony"></div>
+            <div class="gallery-item" data-category="portrait"><img src="https://images.unsplash.com/photo-1542042161-d19577936142?q=80&w=2574" alt="Couple Portrait"></div>
+            <div class="gallery-item" data-category="portrait"><img src="https://images.unsplash.com/photo-1587271629336-930faf259099?q=80&w=2574" alt="Family Photo"></div>
+            <div class="gallery-item" data-category="portrait"><img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=2574" alt="Fashion Portrait"></div>
+          </div>
+          <!--<a href="index.html" class="btn btn-primary">Back to Home</a>-->
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer id="contact" class="bg-black text-gray-300 py-16">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Column 1: Brand -->
+          <div>
+            <h3 class="brand-title font-playfair">Tam Photography KE</h3>
+            <p class="brand-subtitle">Capturing life's precious moments.</p>
+          </div>
+
+          <!-- Column 2: Quick Links -->
+          <div>
+            <h3>Quick Links</h3>
+            <ul class="quick-links">
+              <li><a href="index.html" class="hover:text-white transition-colors">Home</a></li>
+              <li><a href="index.html#about" class="hover:text-white transition-colors">About</a></li>
+              <li><a href="gallery.html" class="hover:text-white transition-colors">Gallery</a></li>
+              <li><a href="contact-us.html" class="hover:text-white transition-colors">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 3: Socials -->
+          <div>
+            <h3>Follow Us</h3>
+            <div class="footer-socials">
+              <a href="#" class="text-xl hover:text-yellow-500 transition-colors"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-xl hover:text-yellow-500 transition-colors"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-xl hover:text-yellow-500 transition-colors"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <p>&copy; 2025 | Leon Ochieng | All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Main JS file for interactivity -->
+    <script src="main.js"></script>
+
+    <!-- Scroll to Top Button -->
+    <a href="#" class="scroll-to-top" id="scrollToTopBtn" aria-label="Scroll to top">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- LIGHTBOX STRUCTURE -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close image viewer">&times;</button>
+      <button class="lightbox-prev" id="lightbox-prev" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>
+      <button class="lightbox-next" id="lightbox-next" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>
+      <div class="lightbox-content">
+        <img src="" alt="Full-size gallery image" id="lightbox-img">
+      </div>
+    </div>
+  </body>
+</html>

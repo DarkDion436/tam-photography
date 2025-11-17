@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tam Photography KE | Portfolio</title>
+    <meta name="description" content="Capturing the Essence of Every Moment. Professional photography for portraits, weddings, real estate, and more." />
+
+    <!-- Google Fonts: Playfair Display & Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Note: You would link your main CSS file here -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body class="bg-white text-gray-800 font-montserrat">
+    <!-- RESPONSIVE NAVIGATION BAR -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        
+        <a href="#" class="navbar-logo">Tam Photography KE</a>
+        <button class="navbar-toggle" id="navbar-toggle" aria-label="Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="navbar-menu" id="navbar-menu">
+          <li class="navbar-item"><a href="#" class="navbar-link">Home</a></li>
+          <li class="navbar-item"><a href="#about" class="navbar-link">About Us</a></li>
+          <li class="navbar-item"><a href="#gallery" class="navbar-link">Our Work</a></li>
+          <li class="navbar-item"><a href="#services" class="navbar-link">Services</a></li>
+          <li class="navbar-item"><a href="#testimonials" class="navbar-link">Clients</a></li>
+          <li class="navbar-item"><a href="contact-us.html" class="navbar-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- 1. HERO SECTION -->
+    <header class="hero-section">
+      <!-- Slider Background -->
+      <div class="slider-container">
+        <div class="slide active">
+          <img src="https://images.unsplash.com/photo-1523438097201-512ae7d59c44?q=80&w=2574" alt="Wedding Photography" class="background-image" />
+          <div class="slide-title">Wedding Photography</div>
+        </div>
+        <div class="slide">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2670" alt="Real Estate Photography" class="background-image" />
+          <div class="slide-title">Real Estate</div>
+        </div>
+        <div class="slide">
+          <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=2572" alt="Self Portrait Photography" class="background-image" />
+          <div class="slide-title">Self Portrait</div>
+        </div>
+        <div class="slide">
+          <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=2574" alt="Baby Bump Photography" class="background-image" />
+          <div class="slide-title">Baby Bump</div>
+        </div>
+        <div class="slide">
+          <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=2670" alt="Graduation Photography" class="background-image" />
+          <div class="slide-title">Graduation</div>
+        </div>
+      </div>
+      <div class="overlay"></div>
+
+      <!-- Hero Content -->
+      <div class="hero-content">
+        <h1 class="font-playfair">Capturing the Essence of Every Moment</h1>
+        <p>Portrait • Weddings • Real Estate • Outdoor Shoots</p>
+        <div class="butn">
+          <a href="#gallery" class="btn btn-outline">View Gallery</a>
+          <a href="contact-us.html" class="btn btn-gold">Book Session</a>
+        </div>
+      </div>
+
+      <!-- Slider Navigation -->
+      <div class="slider-nav">
+        <button class="slider-btn" id="prev-btn" aria-label="Previous Slide"><i class="fas fa-chevron-left"></i></button>
+        <button class="slider-btn" id="next-btn" aria-label="Next Slide"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </header>
+
+    <main>
+      <!-- 2. ABOUT SECTION -->
+      <section id="about" class="py-20 lg:py-32 bg-gray-50">
+        <div class="container">
+          <div class="section-title-container">
+            <h2 class="section-title-background">ABOUT</h2>
+            <h3 class="section-title-foreground">Who Am I?</h3>
+          </div>
+          <div class="about-content">
+            <div class="about-text">
+              <p class="text-base lg:text-lg text-gray-600 leading-relaxed mb-8">
+                I’m Brian, a passionate portrait photographer based in Diani. My journey into photography began with a simple desire to capture the beauty I see in everyday moments. Over the years, this passion has grown into a profession, allowing me to tell stories through my lens. I specialize in creating timeless portraits that reflect the unique personality and essence of each individual. Whether it’s a professional headshot, a family portrait, or a creative personal project, my goal is to create images that you will cherish for a lifetime. My style is a blend of classic and contemporary, with a focus on natural light and authentic emotions. I believe that a great photograph is more than just an image; it’s a memory, a piece of art, and a reflection of who you are. Let’s work together to create something beautiful.
+              </p>
+              <div class="about-button-container">
+                <a href="about-us.html" class="btn btn-primary">More About Me</a>
+              </div>
+            </div>
+            <div class="about-image">
+              <img src="jonathan-borba-eg-72fI9wK4-unsplash.jpg" alt="Profile image of Brian, the photographer" class="rounded-lg shadow-xl w-full h-auto object-cover" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. GALLERY SECTION -->
+      <section id="gallery" class="py-20 lg:py-32">
+        <div class="container">
+          <div class="section-title-container">
+            <h2 class="section-title-background">GALLERY</h2>
+            <h3 class="section-title-foreground">Our Work</h3>
+          </div>
+          <p class="section-subtitle">A curated collection of moments, emotions, and stories captured through my lens.</p>
+          <div class="gallery-grid">
+            <!-- Using divs for better styling control -->
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1529634806973-e363a5d37e8b?q=80&w=2574" alt="Wedding Portrait"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?q=80&w=2574" alt="Soul Imagery"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1507525428034-b723a996f3ea?q=80&w=2670" alt="Picturesque Imagery"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1529232577993-8a31c2d01506?q=80&w=2574" alt="Couples"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2670" alt="Real Estate"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2670" alt="Authentic Imagery"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?q=80&w=2572" alt="Self Portrait"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1532712938310-34cb39825785?q=80&w=2670" alt="Maternity Imagery"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?q=80&w=2574" alt="Baby Bump"></div>
+          </div>
+          <div class="gallery-button-container">
+            <a href="gallery.html" class="btn btn-primary">View Full Gallery</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. MINI SERVICES SHOOT CATEGORIES -->
+      <section id="mini-services" class="py-20 lg:py-32 bg-gray-50">
+        <div class="container">
+          <div class="section-title-container">
+            <h2 class="section-title-background">SERVICES</h2>
+            <h3 class="section-title-foreground">Services</h3>
+          </div>
+          <p class="section-subtitle">Tailored sessions to perfectly capture your special occasions.</p>
+          <div class="service-cards-grid">
+            <!-- Service Card 1: Couples -->
+            <div class="service-card">
+              <i class="fas fa-heart"></i>
+              <h3 class="text-xl font-bold mb-4">Couples Shoot</h3>
+              <a href="contact-us.html" class="btn btn-primary btn-sm">Book Session</a>
+            </div>
+            <!-- Service Card 2: Baby -->
+            <div class="service-card">
+              <i class="fas fa-baby"></i>
+              <h3 class="text-xl font-bold mb-4">Baby Shoot</h3>
+              <a href="contact-us.html" class="btn btn-primary btn-sm">Book Session</a>
+            </div>
+            <!-- Service Card 3: Graduation -->
+            <div class="service-card">
+              <i class="fas fa-graduation-cap"></i>
+              <h3 class="text-xl font-bold mb-4">Graduation Shoot</h3>
+              <a href="contact-us.html" class="btn btn-primary btn-sm">Book Session</a>
+            </div>
+            <!-- Service Card 4: Outdoor -->
+            <div class="service-card">
+              <i class="fas fa-tree"></i>
+              <h3 class="text-xl font-bold mb-4">Outdoor Shoot</h3>
+              <a href="contact-us.html" class="btn btn-primary btn-sm">Book Session</a>
+            </div>
+            <!-- Service Card 5: Real Estate -->
+            <div class="service-card">
+              <i class="fas fa-home"></i>
+              <h3 class="text-xl font-bold mb-4">Real Estate Shoot</h3>
+              <a href="contact-us.html" class="btn btn-primary btn-sm">Book Session</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. SERVICES SECTION (Stats) -->
+      <section id="services" class="py-20 lg:py-32 bg-black text-white">
+        <div class="container">
+          <div class="stats-grid">
+            <!-- Stat 1 -->
+            <div class="stat-item">
+              <p class="counter-number text-5xl lg:text-6xl font-playfair font-bold mb-2" data-target="50">0</p>
+              <h3 class="text-xl text-gray-300 mb-4">Sessions</h3>
+              <!--<a href="contact-us.html" class="btn btn-gold btn-sm">Book Session</a>-->
+            </div>
+            <!-- Stat 2 -->
+            <div class="stat-item">
+              <p class="counter-number text-5xl lg:text-6xl font-playfair font-bold mb-2" data-target="150">0</p>
+              <h3 class="text-xl text-gray-300 mb-4">Happy Clients</h3>
+              <!--<a href="contact-us.html" class="btn btn-gold btn-sm">Book Session</a>-->
+            </div>
+            <!-- Stat 3 -->
+            <div class="stat-item">
+              <p class="counter-number text-5xl lg:text-6xl font-playfair font-bold mb-2" data-target="1000">0</p>
+              <h3 class="text-xl text-gray-300 mb-4">Pictures Delivered</h3>
+              <!--<a href="contact-us.html" class="btn btn-gold btn-sm">Book Session</a>-->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. TESTIMONIALS SECTION -->
+      <section id="testimonials" class="py-20 lg:py-32">
+        <div class="container">
+          <div class="section-title-container">
+            <h2 class="section-title-background">REVIEWS</h2>
+            <h3 class="section-title-foreground">Testimonials</h3>
+          </div>
+          <div class="testimonials-wrapper">
+            <div class="testimonials-grid">
+              <!-- Main Testimonial -->
+              <div class="testimonial-card">
+                <div class="stars">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <blockquote>
+                  "The portrait session was smooth, fun, and the results were magazine-quality. Highly recommended!"
+                </blockquote>
+                <footer>— Kevin O., <span style="font-weight: 400;">Portrait Client</span></footer>
+              </div>
+              <!-- Placeholder 1 -->
+              <div class="testimonial-card testimonial-placeholder">
+                <p>Client testimonial coming soon.</p>
+              </div>
+              <!-- Placeholder 2 -->
+              <div class="testimonial-card testimonial-placeholder">
+                <p>Client testimonial coming soon.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. SUBSCRIPTION / NEWSLETTER SECTION -->
+      <section id="subscribe" class="py-20 lg:py-24 bg-gray-50">
+        <div class="container">
+          <div class="section-title-container">
+            <h2 class="section-title-background">NEWSLETTER</h2>
+            <h3 class="section-title-foreground">Stay Updated</h3>
+          </div>
+          <p class="section-subtitle">Subscribe to our newsletter for exclusive offers, tips, and a behind-the-scenes look at our latest work.</p>
+          <form action="#" method="POST" class="subscription-form">
+            <input type="email" name="email" placeholder="Enter your email address" required class="w-full px-4 py-3 text-gray-800 border border-gray-300 rounded-l-full focus:outline-none focus:ring-2 focus:ring-yellow-500" />
+            <button type="submit" class="px-8 py-3 bg-black text-white rounded-r-full hover:bg-gray-800 transition-colors duration-300">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- 8. FOOTER SECTION -->
+      <footer id="contact" class="bg-black text-gray-300 py-16">
+        <div class="container">
+          <div class="footer-grid">
+            <!-- Column 1: Brand -->
+            <div>
+              <h3 class="brand-title font-playfair">Tam Photography KE</h3>
+              <p class="brand-subtitle">Capturing life's precious moments.</p>
+            </div>
+
+            <!-- Column 2: Quick Links -->
+            <div>
+              <h3>Quick Links</h3>
+              <ul class="quick-links">
+                <li><a href="#" class="hover:text-white transition-colors">Home</a></li>
+                <li><a href="#about" class="hover:text-white transition-colors">About</a></li>
+                <li><a href="#gallery" class="hover:text-white transition-colors">Gallery</a></li>
+                <li><a href="#services" class="hover:text-white transition-colors">Services</a></li>
+                <li><a href="#testimonials" class="hover:text-white transition-colors">Testimonials</a></li>
+                <li><a href="contact-us.html" class="hover:text-white transition-colors">Contact Us</a></li>
+              </ul>
+            </div>
+
+            <!-- Column 3: Socials (Bonus) -->
+            <div>
+              <h3>Follow Us</h3>
+              <div class="footer-socials">
+                <a href="#" class="text-xl hover:text-yellow-500 transition-colors"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-xl hover:text-yellow-500 transition-colors"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-xl hover:text-yellow-500 transition-colors"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Footer Bottom -->
+          <div class="footer-bottom">
+            <p>&copy; 2025 | Leon Ochieng | All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Main JS file for interactivity -->
+      <script src="main.js"></script>
+
+      <!-- Scroll to Top Button -->
+      <a href="#" class="scroll-to-top" id="scrollToTopBtn" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+
+      <!-- LIGHTBOX STRUCTURE -->
+      <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightbox-close" aria-label="Close image viewer">&times;</button>
+        <button class="lightbox-prev" id="lightbox-prev" aria-label="Previous image"><i class="fas fa-chevron-left"></i></button>
+        <button class="lightbox-next" id="lightbox-next" aria-label="Next image"><i class="fas fa-chevron-right"></i></button>
+        <div class="lightbox-content">
+          <img src="" alt="Full-size gallery image" id="lightbox-img">
+        </div>
+      </div>
+  </body>
+</html>
